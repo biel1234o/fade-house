@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fade House | Cadastro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Fade House</h1>
+
+    <div class="abas" role="tablist">
+      <button type="button" role="tab" class="aba ativa" data-tipo="clientes" aria-selected="true">Sou cliente</button>
+      <button type="button" role="tab" class="aba" data-tipo="barbeiros" aria-selected="false">Sou barbeiro</button>
+    </div>
+
+    <form id="form" novalidate>
+      <h2 id="titulo">Cadastro de cliente</h2>
+
+      <label for="nome">Nome</label>
+      <input id="nome" name="nome" type="text" autocomplete="name">
+      <span class="erro" data-erro="nome"></span>
+
+      <label for="email">E-mail</label>
+      <input id="email" name="email" type="email" autocomplete="email">
+      <span class="erro" data-erro="email"></span>
+
+      <label for="telefone">Telefone</label>
+      <input id="telefone" name="telefone" type="tel" inputmode="numeric" placeholder="(41) 99999-9999" autocomplete="tel">
+      <span class="erro" data-erro="telefone"></span>
+
+      <button type="submit" id="enviar">Cadastrar</button>
+      <p id="mensagem" role="status"></p>
+    </form>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
