@@ -1,10 +1,10 @@
 :root {
-  --fundo: #14110f;
-  --painel: #1e1a17;
-  --linha: #3a322c;
-  --texto: #f2ebe3;
-  --suave: #a79b8e;
-  --destaque: #c8a45c;
+  --fundo: #f4f8ff;
+  --painel: #ffffff;
+  --linha: #d5e2f3;
+  --texto: #172b4d;
+  --suave: #60728f;
+  --destaque: #2563eb;
   --erro: #ff8a7a;
   --ok: #8fd19e;
 }
@@ -39,7 +39,7 @@ h2 { margin: 0 0 1rem; font-size: 1.1rem; font-weight: 600; }
   font: inherit;
   cursor: pointer;
 }
-.aba.ativa { color: var(--fundo); background: var(--destaque); border-color: var(--destaque); font-weight: 600; }
+.aba.ativa { color: #ffffff; background: var(--destaque); border-color: var(--destaque); font-weight: 600; }
 
 form {
   background: var(--painel);
@@ -54,7 +54,7 @@ input {
   width: 100%;
   margin-top: .3rem;
   padding: .75rem;
-  background: var(--fundo);
+  background: #ffffff;
   color: var(--texto);
   border: 1px solid var(--linha);
   border-radius: .5rem;
@@ -69,7 +69,7 @@ input.invalido { border-color: var(--erro); }
   margin-top: 1rem;
   padding: .85rem;
   background: var(--destaque);
-  color: var(--fundo);
+  color: #ffffff;
   border: 0;
   border-radius: .5rem;
   font: inherit;
